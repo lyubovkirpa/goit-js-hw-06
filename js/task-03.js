@@ -14,8 +14,8 @@ const images = [
 ];
 
 const imageCreation = ({ url, alt }) => {
-  return `<li>
-      <img url="${url}" alt="${alt}"></img>
+  return `<li class=gallery-item>
+      <img src="${url}" alt="${alt}" width="300" ></img>
     </li>`;
 };
 
