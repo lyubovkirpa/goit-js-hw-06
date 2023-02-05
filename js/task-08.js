@@ -10,7 +10,7 @@ function onFormSabmit(event) {
   const password = formElements.password.value;
 
   if (mail === "" || password === "") {
-    return console.log(alert);
+    return alert(`Enter all fields`);
   }
 
   console.log(`mail: ${mail}, password: ${password}`);
